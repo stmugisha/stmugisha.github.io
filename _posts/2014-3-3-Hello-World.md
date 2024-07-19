@@ -8,7 +8,7 @@ comments: True
 
 
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below). test drop pagination text chunk preview.
+Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below). Test drop pagination text chunk preview.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
