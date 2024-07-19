@@ -14,26 +14,27 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-size: 20px;
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $georgia;
-  color: $darkGray;
+	background: #fff;
+  color: #515151;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 940px;
+  max-width: 58rem;
   padding: 0 10px;
   width: 90%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #313131;
+  letter-spacing: -.025rem;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -52,16 +53,17 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 27px;
+  color: gray;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 h4 {
-  font-size: 18px;
-  color: $gray;
+  font-size: 25px;
+  color: gray;
 }
 
 p {
@@ -118,6 +120,7 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  padding-top: 1em;
 }
 
 // Specify the color of the selection
