@@ -23,10 +23,6 @@ The scaling hypothesis is that
 
 Gwern cites a swathe of papers in support, interpreting them in such a way that the following picture emerges:
 
-#### The scaling hypothesis and the laziness of deep learning
+#### How do LLMs store facts
 
-The scaling hypothesis is that
-
-> we can simply train ever larger NNs and ever more sophisticated behavior will emerge naturally as the easiest way to optimize for all the tasks & data
-
-Gwern cites a swathe of papers in support, interpreting them in such a way that the following picture emerges:
+* mlp vector additions of intermediate vectors in a forward/backpass pass widen the vector space (adding info in one vector to that in another vector resulting in a result vector incorporating info in the added vectors)
